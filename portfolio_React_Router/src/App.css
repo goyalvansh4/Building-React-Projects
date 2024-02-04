@@ -1,0 +1,35 @@
+.theme-btn {
+  border: 0;
+  border-radius: 40px;
+  color: #fff;
+  background-color: #ea580c;
+  display: inline-block;
+  font-size: 16px;
+  font-weight: 600;
+  padding: 15px 65px 15px 35px;
+  position: relative;
+  text-transform: capitalize;
+  transition: all 0.5s ease-out;
+  z-index: 1;
+}
+.theme-btn:hover,
+.wpo-testimonial-wrap .slick-dots li.slick-active button {
+  background: #ffffff;
+  color:#ea580c;
+}
+a {
+  cursor: pointer;
+}
+a:hover{
+  color: #ea580c;
+  text-decoration: none;
+}
+.theme-btn:before {
+  content: "\2193";
+  font-size: 20px;
+  position: absolute;
+  right: 38px;
+  top: 48%;
+  -webkit-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
